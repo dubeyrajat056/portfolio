@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rajat Dubey - Full Stack Developer Portfolio | Premium UI/UX | 2026">
+    <title>Rajat Dubey · Full Stack Developer</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts: Inter & Space Grotesk -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS Animation Library (lightweight) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- ===== STICKY NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">RAJAT<span class="dot">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-badge">
+                        <span class="badge-glass"><i class="bi bi-code-square me-2"></i>Full Stack Developer</span>
+                    </div>
+                    <h1 class="hero-title">Hi, I'm <span class="gradient-text">Rajat Dubey</span></h1>
+                    <div class="type-wrapper">
+                        <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                    </div>
+                    <p class="hero-description">
+                        B.Sc. in I.T · From sales to code · I craft digital experiences that blend performance with
+                        beautiful UI.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="./@img/RajatBscI.tResume1updatenew.pdf" class="btn btn-primary" download><i
+                                class="bi bi-download me-2"></i>Download Resume</a>
+                        <a href="#contact" class="btn btn-outline"><i class="bi bi-chat-dots me-2"></i>Hire Me</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/dubeyrajat056" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="www.linkedin.com/in/rajat-dubey-357307253" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="mailto:dubeyrajat056@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-glow"></div>
+                        <img src="./@img/pic1.png" alt="Rajat Dubey" class="hero-image">
+                        <div class="hero-image-badge">
+                            <span><i class="bi bi-check-circle-fill"></i> 5+ Years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-image-wrapper">
+                        <img src="./@img/manifyrajat.jpeg" alt="About Rajat" class="about-image">
+                        <div class="about-exp-badge">
+                            <span class="years">5+</span>
+                            <span class="text">Years<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1000">
+                    <span class="section-subtitle">About Me</span>
+                    <h2 class="section-title">Full Stack Developer <span class="gradient-text">& UI/UX Enthusiast</span>
+                    </h2>
+                    <p class="about-text">
+                        My journey started in sales, moved to development at <strong>Cognoza Namaste</strong>, sharpened
+                        frontend skills at <strong>Munzo System</strong>, and even worked as an Associate Business
+                        Analyst at <strong>Dentsu</strong>. This unique path gives me a 360° view of product
+                        development.
+                    </p>
+                    <p class="about-text mb-4">
+                        I believe in writing clean code that solves real problems. Currently focused on full-stack
+                        projects with React, Node.js, and MySQL.
+                    </p>
+
+                    <!-- Info List -->
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span class="info-label"><i class="bi bi-person-badge"></i> Name:</span>
+                            <span class="info-value">Rajat Dubey</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="bi bi-mortarboard"></i> Education:</span>
+                            <span class="info-value">B.Sc. in Information Technology</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="bi bi-envelope"></i> Email:</span>
+                            <span class="info-value">dubeyrajat056@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="bi bi-geo-alt"></i> Based:</span>
+                            <span class="info-value">Mumbai, India</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill Badges -->
+                    <div class="skill-badges mt-4">
+                        <span class="badge">HTML5</span>
+                        <span class="badge">CSS3</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">React</span>
+                        <span class="badge">Node.js</span>
+                        <span class="badge">MySQL</span>
+                        <span class="badge">Bootstrap</span>
+                        <span class="badge">API</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Counter Row -->
+            <div class="row g-4 mt-5 pt-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-check2-circle"></i></div>
+                        <div class="stat-number counter" data-target="28">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-people"></i></div>
+                        <div class="stat-number counter" data-target="12">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-cup-hot"></i></div>
+                        <div class="stat-number counter" data-target="850">0</div>
+                        <div class="stat-label">Cups of Coffee</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="section bg-dark">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-subtitle">My Expertise</span>
+                <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            </div>
+
+            <div class="row g-4 mt-5">
+                <!-- Frontend -->
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="100">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+                        <h3 class="skill-category">Frontend</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>HTML/CSS</span><span>98%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>JavaScript</span><span>94%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 94%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>React</span><span>89%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 89%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Bootstrap</span><span>96%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 96%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="200">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="bi bi-hdd-stack"></i></div>
+                        <h3 class="skill-category">Backend</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Node.js</span><span>86%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 86%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>API Integration</span><span>92%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Authentication</span><span>84%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 84%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="300">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="bi bi-database"></i></div>
+                        <h3 class="skill-category">Database</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>MySQL</span><span>88%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>MongoDB</span><span>82%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="400">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="bi bi-tools"></i></div>
+                        <h3 class="skill-category">Tools & Others</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Responsive Design</span><span>97%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 97%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Git/GitHub</span><span>90%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Figma</span><span>85%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-subtitle">My Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            </div>
+
+            <div class="row g-4 mt-5">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/2c3e50/6c5ce7?text=Teleconsultation" alt="Project">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="www.enummos.com" target="_blank" class="project-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="#" target="_blank" class="project-link"><i class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Nummos</h3>
+                            <p class="project-tech">React · WebRTC · Node.js · MySQL</p>
+                            <p class="project-description">Nummos offers a state-of-the-art Business Services platform
+                            </p>
+                            <div class="project-tags">
+                                <span>React</span><span>WebRTC</span><span>Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/1e2b3a/6c5ce7?text=Movie+Booking" alt="Project">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://www.asmitaelectricals.com/" target="_blank" class="project-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="https://www.asmitaelectricals.com/" target="_blank" class="project-link"><i
+                                            class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Asmita Electricals</h3>
+                            <p class="project-tech">Java · MySQL · JSP</p>
+                            <p class="project-description">From design to delivery, our high-quality transformers, CTs,
+                                PTs, and reactors ensure peak performance for every system. Trusted by industries for
+                                nearly two decades, we make power work smarter.</p>
+                            <div class="project-tags">
+                                <span>Java</span><span>MySQL</span><span>JSP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/2c3e50/6c5ce7?text=Dashboard" alt="Project">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://dubeyrajat056.github.io/cognoza/index.html" target="_blank"
+                                        class="project-link"><i class="bi bi-link-45deg"></i></a>
+                                    <a href="https://dubeyrajat056.github.io/cognoza/index.html" target="_blank"
+                                        class="project-link"><i class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">cognoza technologies</h3>
+                            <p class="project-tech">ECharts · Express · MySQL</p>
+                            <p class="project-description">Cognoza Technologies delivers enterprise-grade software
+                                solutions and IT services that accelerate digital transformation, optimize business
+                                operations, and drive sustainable growth for organizations worldwide.
+                            </p>
+                            <div class="project-tags">
+                                <span>ECharts</span><span>Express</span><span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/1e2b3a/6c5ce7?text=E-commerce" alt="Project">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://dubeyrajat056.github.io/Munzo/index.html" target="_blank" class="project-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="https://dubeyrajat056.github.io/Munzo/index.html" target="_blank" class="project-link"><i class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Munzo System</h3>
+                            <p class="project-tech">React · Node.js · Stripe · MySQL</p>
+                            <p class="project-description">Financial services companies provide a broad range of
+                                financial products and services, including banking, investing, insurance, and lending to
+                                individuals and businesses.</p>
+                            <div class="project-tags">
+                                <span>React</span><span>Node.js</span><span>Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/2c3e50/6c5ce7?text=Manga+Library" alt="Project">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" target="_blank" class="project-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="#" target="_blank" class="project-link"><i class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Manga Read & Library</h3>
+                            <p class="project-tech">MongoDB · Express · Node.js</p>
+                            <p class="project-description">Digital manga library with reading lists, bookmarks, and user
+                                collections.</p>
+                            <div class="project-tags">
+                                <span>MongoDB</span><span>Express</span><span>Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section id="education" class="section bg-dark">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-subtitle">Academics</span>
+                <h2 class="section-title">Education <span class="gradient-text">Timeline</span></h2>
+            </div>
+
+            <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+                <!-- Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>B.Sc. in Information Technology</h3>
+                        <p>University of Mumbai · CGPA: 8.6/10</p>
+                        <span class="timeline-badge">Graduated</span>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>12th Grade (HSC) - Science</h3>
+                        <p>Computer Science · 88%</p>
+                        <span class="timeline-badge">Completed</span>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-content">
+                        <h3>10th Grade (SSC)</h3>
+                        <p>Nagpur Board · 92% · Merit Scholar</p>
+                        <span class="timeline-badge">Distinction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-subtitle">Career</span>
+                <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+            </div>
+
+            <div class="experience-timeline" data-aos="fade-up" data-aos-delay="100">
+                <!-- Experience 1 -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="company">Cognoza Namaste</h3>
+                            <span class="position">Full Stack Developer</span>
+                        </div>
+                        <span class="duration">2023 - Present</span>
+                    </div>
+                    <div class="experience-body">
+                        <p>Started as Sales Executive, transitioned to development. Built internal CRM modules, improved
+                            application performance by 40%, and led 2 major feature releases.</p>
+                        <ul class="achievements">
+                            <li><i class="bi bi-check-lg"></i> Reduced API response time by 35%</li>
+                            <li><i class="bi bi-check-lg"></i> Implemented real-time dashboard</li>
+                            <li><i class="bi bi-check-lg"></i> Mentored 2 junior developers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="company">Munzo System</h3>
+                            <span class="position">Frontend Developer</span>
+                        </div>
+                        <span class="duration">2022 - 2023</span>
+                    </div>
+                    <div class="experience-body">
+                        <p>Developed responsive fintech dashboards using React and Bootstrap. Collaborated with backend
+                            team on API integration.</p>
+                        <ul class="achievements">
+                            <li><i class="bi bi-check-lg"></i> Built 5+ reusable component libraries</li>
+                            <li><i class="bi bi-check-lg"></i> Achieved 98% Lighthouse score</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="company">Dentsu</h3>
+                            <span class="position">Associate Business Analyst</span>
+                        </div>
+                        <span class="duration">2021 - 2022</span>
+                    </div>
+                    <div class="experience-body">
+                        <p>Data analysis, requirement gathering, and prototyping. Bridged gap between client and
+                            development teams.</p>
+                        <ul class="achievements">
+                            <li><i class="bi bi-check-lg"></i> Analyzed data for 10+ campaigns</li>
+                            <li><i class="bi bi-check-lg"></i> Created interactive dashboards for stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+            </div>
+
+            <div class="row g-5 mt-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="contact-info">
+                        <h3 class="contact-title">Have a project in mind?</h3>
+                        <p class="contact-text">I'm currently available for freelance or full-time positions. Let's
+                            discuss how I can help you achieve your goals.</p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="bi bi-envelope"></i></div>
+                                <div class="contact-detail">
+                                    <span>Email</span>
+                                    <a href="mailto:dubeyrajat056@gmail.com">dubeyrajat056@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="bi bi-whatsapp"></i></div>
+                                <div class="contact-detail">
+                                    <span>WhatsApp</span>
+                                    <a href="https://wa.me/7776881487" target="_blank">+91 7776881487</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="bi bi-geo-alt"></i></div>
+                                <div class="contact-detail">
+                                    <span>Location</span>
+                                    <span>Mumbai, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h4>Follow me</h4>
+                            <div class="social-links">
+                                <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+                                <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7" data-aos="fade-left">
+                    <form id="contactForm" class="contact-form needs-validation" novalidate>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                                <div class="invalid-feedback">Valid email required.</div>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                <div class="invalid-feedback">Message cannot be empty.</div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100 py-3">Send Message <i
+                                        class="bi bi-send ms-2"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">RAJAT<span class="dot">.</span></div>
+                <p class="copyright">© 2026 Rajat Dubey. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <a href="#home" class="back-to-top"><i class="bi bi-arrow-up-short"></i></a>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

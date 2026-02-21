@@ -192,7 +192,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       
       // Close mobile menu if open
       const navbarCollapse = document.querySelector('.navbar-collapse');
-      if (navbarCollapse.classList.contains('show')) {
+      if (navbarCollapse && navbarCollapse.classList.contains('show')) {
         navbarCollapse.classList.remove('show');
       }
     }
@@ -203,15 +203,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const navLinksMobile = document.querySelectorAll('.nav-link');
 const navbarCollapse = document.querySelector('.navbar-collapse');
 
-navLinksMobile.forEach(link => {
-  link.addEventListener('click', () => {
-    if (navbarCollapse.classList.contains('show')) {
-      navbarCollapse.classList.remove('show');
-    }
+if (navLinksMobile && navbarCollapse) {
+  navLinksMobile.forEach(link => {
+    link.addEventListener('click', () => {
+      if (navbarCollapse.classList.contains('show')) {
+        navbarCollapse.classList.remove('show');
+      }
+    });
   });
-});
+}
 
-// ===== INTERSECTION OBSERVER FOR FADE-IN ANIMATIONS (FALLBACK) =====
+// ===== INTERSECTION OBSERVER FOR FADE-IN ANIMATIONS =====
 const animateElements = document.querySelectorAll('.skill-card, .project-card, .timeline-item, .experience-item');
 
 const observer = new IntersectionObserver((entries) => {
@@ -256,3 +258,15 @@ if (yearElement) {
   const currentYear = new Date().getFullYear();
   yearElement.innerHTML = yearElement.innerHTML.replace('2026', currentYear);
 }
+
+// ===== FIX FOR MOBILE MENU CLICK OUTSIDE =====
+document.addEventListener('click', function(event) {
+  const navbar = document.querySelector('.navbar-collapse');
+  const toggler = document.querySelector('.navbar-toggler');
+  
+  if (navbar && navbar.classList.contains('show') && 
+      !navbar.contains(event.target) && 
+      !toggler.contains(event.target)) {
+    navbar.classList.remove('show');
+  }
+});
